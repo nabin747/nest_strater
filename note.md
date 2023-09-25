@@ -1,4 +1,4 @@
-`For creating project from scratch we need followiing command: `
+`To creating project from scratch we need followiing command: `
 
 ```
     npm init -y
@@ -15,3 +15,38 @@
 ```
 npx ts-node-dev src/main.ts
 ```
+### File naming conventions in nest js 
+```
+    .........................           CONVENTIONS:
+    .          main.ts      .       One clas per file (some exceptions)
+    .........................
+    .                       .
+    . function bootstrap    .
+    .                       .
+    .                       .
+    .........................
+
+
+
+    .............................
+    .   app.controller.ts       .       Class name should include the kind
+    .............................       of thing we are creating
+    .                           .
+    .   class AppController {}  .
+    .                           .
+    .                           .
+    .............................
+                                        Name of class and name of file should
+                                        always match up
+    .............................
+    .        app.module.ts      .
+    .............................
+    .                           .       Filename template:
+    .   class AppModule {}      .           name.type_of_thing.ts
+    .                           .
+    .                           .
+    .............................
+
+
+```
+### ASDFAS
